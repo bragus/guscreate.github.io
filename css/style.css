@@ -1,0 +1,62 @@
+body{
+    background-color: #141414;
+}
+
+.sobredesc{
+  text-align: start;
+
+}
+
+.redes{
+    display: grid;
+}
+
+.btn{
+    margin: 2px;
+}
+
+.footer{
+    background-color: #141414;
+}
+
+.portfolio-modal{
+    color: #141414;
+}
+
+.imgport{
+    width: 70%;
+}
+
+.btn-port{
+    background-color: #141414;
+}
+
+@media (max-width:700px){
+    header.masthead{
+      display: flex;
+      justify-content: center;
+      background-image: url("../assets/img/headerbgmobil.png");
+
+    }
+  }
+
+  .btn{
+      background-color: none;
+      border: 0px;
+      box-shadow: none;
+  }
+
+  .fa-code .fa-pen-nib .laptop-medical{
+      color: eaeaea;
+  }
+
+  #portfolio h2{
+      color: #141414;
+  }
+
+  .portfolio-caption-heading{
+      color: #141414;
+  }
+}
+
+
